@@ -34,7 +34,7 @@
     "test:watch": "jest --coverage --watch",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "snyk-protect": "snyk protect",
-    "prepack": "build"
+    "prepack": "rollup -c"
   },
   "dependencies": {
     "@nestjs/common": "^7.6.5",
