@@ -33,7 +33,8 @@
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:watch": "jest --coverage --watch",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "snyk-protect": "snyk protect"
+    "snyk-protect": "snyk protect",
+    "prepack": "build"
   },
   "dependencies": {
     "@nestjs/common": "^7.6.5",
